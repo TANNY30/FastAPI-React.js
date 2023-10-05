@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=`, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        let a="Text is here";
+        console.log(a);
+        let obja = {
+            u: 90,
+            m: 9,
+            func: function myfunc(number){
+                console.log("The no. is : "+number)
+            }
+        }
+        document.addEventListener("click",function click(){
+            console.log("Clicked !");
+            //alert("Hello")
+            let conf = confirm("are you sure?");
+            console.log(conf);
+        })
+        let arr=[34,21,23];
+        //console.log(this)
+        function myfunc(number){
+            console.log(" The number is "+this);
+        }
+        myfunc();
+        let myfunc2 = (number)=>{
+            console.log("The number is "+this);
+        }
+        myfunc2();
+
+        setTimeout(()=>{
+            console.log("yay@")
+        },3000);
+        console.log("already in script");
+
+    </script>
+</head>
+<body>
+    <h1>This is my page!</h1>
+    
+</body>
+</html>
