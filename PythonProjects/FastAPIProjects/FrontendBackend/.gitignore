@@ -1,0 +1,29 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/env
+/FastAPI/__pycache__
+
+
+# dependencies
+/React/finance-app/node_modules
+/React/finance-app/.pnp
+/React/finance-app/.pnp.js
+
+# testing
+/React/finance-app/coverage
+
+# production
+/React/finance-app/build
+
+# misc
+/React/finance-app/.DS_Store
+/React/finance-app/.env.local
+/React/finance-app/.env.development.local
+/React/finance-app/.env.test.local
+/React/finance-app/.env.production.local
+
+/React/finance-app/npm-debug.log*
+/React/finance-app/yarn-debug.log*
+/React/finance-app/yarn-error.log*
+
